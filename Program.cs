@@ -13,8 +13,8 @@ namespace CardGenerator
         static void Main(string[] args)
         {
             FontCollection fonts = new FontCollection();
-            var titleFontFamily = fonts.Install("OpenSans-Regular.ttf");
-            var contentFontFamily = fonts.Install("NeoSansSpacing-Medium.ttf");
+            var titleFontFamily = fonts.Install("./OpenSans-Regular.ttf");
+            var contentFontFamily = fonts.Install("./NeoSansSpacing-Medium.ttf");
 
             var titleFont = fonts.CreateFont(titleFontFamily.Name, 84);
             var titleColor = new Rgba32(209, 57, 111);
